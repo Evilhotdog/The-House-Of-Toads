@@ -1,0 +1,71 @@
+header {
+    background-color: black;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #73f4bb;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-top: 0px;
+}
+header h1 {
+    font-size: 70px;
+}
+header h3 {
+    font-size: 25px;
+}
+body {
+    text-align: center;
+    background-color: black;
+}
+h2 {
+    font-size: 35px;
+}
+.manifesto {
+    border-radius: 10px;
+    border-color: #73f4bb;
+    border-style: double;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.manifesto p {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 25px;
+}
+.manifesto h3 {
+    font-size: 30px;
+}
+.manifesto .grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.manifesto .grid .box {
+    border: 1px black solid;
+    font-size: 20px;
+}
+.a {
+    border-top-left-radius: 5px;
+}
+.b {
+    border-top-right-radius: 5px;
+}
+.c {
+    border-bottom-left-radius: 5px;
+}
+.d {
+    border-bottom-right-radius: 5px;
+}
+.polizei {
+    color: white;
+}
+.manifesto li {
+    font-size: 21px;
+}
