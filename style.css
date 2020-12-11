@@ -91,3 +91,28 @@ h2 {
     border-style: solid;
     padding: 10px;
 }
+.comment {
+    border-radius: 50px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.commentname {
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+.commentdate {
+    text-align: center;
+}
+.commenttext {
+    text-align: justify;
+}
