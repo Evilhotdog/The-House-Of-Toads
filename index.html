@@ -1,10 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>The House of Toads</title>
   <meta name="description" content="My Page Description">
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="#">
 </head>
 <body>
     <header>
@@ -87,5 +88,22 @@
         <br><br><br><br><br><br>
         <p>Jon</p>
     </div>
+
+
+    <div id="comments" class="manifesto">
+        <div>
+            <form id="commentsBox">
+                <label for="commentSection" class="label">Comment Section</label>
+                <textarea id="commentSection"></textarea>
+                <input type="submit">
+            </form>
+        </div>
+        <div id = commentsList></div>
+    </div>
+    <script type="text/babel">
+    console.log("E")
+    ReactDOM.render(<h1>Hello, world!</h1>,document.getElementById('commentsList'));
+    console.log("E");
+    </script>
 </body>
 </html>
